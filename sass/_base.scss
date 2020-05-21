@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.inner {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  // インナーを中央寄せ
+}
+
+body {
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  color: #4b4949;
+  background-color: #fff;
+  font-family: "Noto Serif", "Noto Serif JP", "serif";
+}
+
+.flex {
+  display: flex;
+  // 横並び
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+// buttonの初期化

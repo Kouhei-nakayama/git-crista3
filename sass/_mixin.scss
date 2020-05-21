@@ -1,0 +1,12 @@
+$breakpoints: (sp: "all and (max-width: 480px)",
+    tb: "all and (max-width: 768px)"
+);
+// map型でブレイクポイントを定義
+
+@mixin media($breakpoint) {
+    @media #{map-get($breakpoints,$breakpoint)} {
+        @content;
+    }
+}
+
+// mixinでそれぞれのブレイクポイントを呼び出す
