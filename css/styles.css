@@ -104,3 +104,10 @@ button {
      -moz-appearance: none;
           appearance: none;
 }
+
+.kv {
+  background-image: url(../img/kv.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
