@@ -1,0 +1,29 @@
+#contact {
+  background-color: #f2f2f2;
+}
+#contact .inner {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.contact_image {
+  max-width: 580px;
+}
+.contact_text {
+  max-width: 440px;
+  width: 100%;
+}
+.contact_lead {
+  margin-top: 30px;
+  line-height: 2;
+  font-family: "YuGothic";
+}
+.coop {
+  background-color: #525252;
+  text-align: center;
+  font-size: 10px;
+  padding: 18px 0;
+  color: #fff;
+}
