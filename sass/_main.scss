@@ -1,6 +1,45 @@
+#mv {
+  height: 100vh;
+  position: relative;
+}
+#mv::after {
+  content: "";
+  height: 100%;
+  width: 50%;
+  background-color: #555;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
 .kv {
   background-image: url(../img/kv.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 86.5%;
+  width: 76.4%;
+  position: relative;
+}
+.kv::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.mv_maincatch {
+  position: absolute;
+  top: 30%;
+  right: -10%;
+  color: #fff;
+  z-index: 1;
+}
+.mv_description {
+  font-size: 20px;
+}
+.mv_catch {
+  font-size: 72px;
 }
