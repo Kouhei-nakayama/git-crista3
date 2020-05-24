@@ -32,3 +32,16 @@
   padding-bottom: 110px;
   margin-top: 120px;
 }
+#about {
+  position: relative;
+}
+#about::after {
+  content: "";
+  width: 100vw;
+  height: 160px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #f0f0f0;
+}
