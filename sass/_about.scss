@@ -4,6 +4,10 @@
   padding: 50px 30px;
   line-height: 2;
   background-color: rgba(255, 255, 255, 0.95);
+  @include media(sp) {
+    max-width: 340px;
+    margin: 0 auto;
+  }
 }
 .about_description {
   padding-top: 30px;
@@ -16,6 +20,13 @@
   font-size: 12px;
   padding: 10px 0;
   margin-top: 30px;
+}
+
+.btn_link:hover {
+  opacity: 0.7;
+}
+.btn_link:active {
+  transform: translateY(5px);
 }
 .btn_link a {
   width: 100%;
@@ -31,6 +42,11 @@
   padding-left: 50px;
   padding-bottom: 110px;
   margin-top: 120px;
+  @include media(sp) {
+    padding-left: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 #about {
   position: relative;

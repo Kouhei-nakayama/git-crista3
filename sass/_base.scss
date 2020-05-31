@@ -32,6 +32,9 @@ img {
   width: 100%;
   margin: 0 auto;
   // インナーを中央寄せ
+  @include media(sp) {
+    max-width: 375px;
+  }
 }
 
 body {
@@ -41,6 +44,9 @@ body {
   background-color: #fff;
   font-family: "Noto Sans JP", "serif";
   font-size: 16px;
+  @include media(sp) {
+    font-size: 14px;
+  }
 }
 
 .flex {
@@ -60,4 +66,7 @@ button {
   font-size: 32px;
 
   font-family: "Montserrat ExtraBold";
+  @include media(sp) {
+    font-size: 28px;
+  }
 }

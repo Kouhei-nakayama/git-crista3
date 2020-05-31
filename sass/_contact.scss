@@ -6,6 +6,10 @@
   align-items: center;
   padding-top: 60px;
   padding-bottom: 120px;
+  @include media(tb) {
+    flex-direction: column-reverse;
+    padding-bottom: 40px;
+  }
 }
 
 .contact_image {
@@ -14,6 +18,9 @@
 .contact_text {
   max-width: 440px;
   width: 100%;
+  @include media(tb) {
+    margin: 40px auto 0 40px;
+  }
 }
 .contact_lead {
   margin-top: 30px;
